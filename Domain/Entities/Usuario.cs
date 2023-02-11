@@ -4,7 +4,7 @@ using System.Net;
 
 namespace Domain.Entities
 {
-    public class Usuario : IAggregateRoot
+    public class Usuario : BaseEntity, IAggregateRoot
     {
         public Usuario(string nome, string email, string senha, CPF cPF, Endereco endereco)
         {

@@ -2,7 +2,7 @@
 
 namespace Domain.Entities
 {
-    public class RedeSocial : IAggregateRoot
+    public class RedeSocial : BaseEntity, IAggregateRoot
     {
         public RedeSocial(string nome, string uRL, string token)
         {

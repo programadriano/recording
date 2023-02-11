@@ -2,7 +2,7 @@
 
 namespace Domain.Entities
 {
-    public class Canal : IAggregateRoot
+    public class Canal : BaseEntity, IAggregateRoot
     {
         public string Nome { get; set; }
 
