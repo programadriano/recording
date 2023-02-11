@@ -4,10 +4,7 @@ namespace Domain.Entities.ValueObjects
 {
     public class Endereco : ValueObject
     {
-        public Endereco()
-        {
 
-        }
 
         public Endereco(string rua, string complemento, string bairro, string cidade, string estado, string cep)
         {
