@@ -6,6 +6,7 @@ namespace Infra.Repository
 {
     public class UsuarioRepository : IUsuarioRepository
     {
+
         public Task<Guid> Add(Usuario entity)
         {
             throw new NotImplementedException();
